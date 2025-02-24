@@ -1,86 +1,35 @@
-# Cloud Computing and Python Portfolio
+# Space Race Project
 
-## Introduction
+## Project Overview
 
-My name is **Laura Stephenson**. I began coding in 2018 and took a break between 2020 and 2022. Since late 2022, I have been passionately studying Python and cloud computing. I love cloud computing, machine learning, AI prompting, and data analytics. Recently, I discovered my interest in the cybersecurity field, which aligns with my perspective on ensuring safety and security online.
+This project is an analysis of the worldwide space race since 1957. The primary goal is to explore and visualize the key events, achievements, and advancements in space exploration by various countries. The analysis includes:
 
-## Certifications
-- **AWS Certified Cloud Practitioner**
-- **AWS Certified Solutions Architect**
-- **CompTIA Cloud+**
-- **CompTIA Security+**
+- Historical milestones in the space race
+- Key players and their contributions
+- Technological advancements and breakthroughs
+- Comparative analysis of space programs
 
-## Studies
-I have studied:
-- Python
-- Machine learning
-- Data analysis
-- Artificial Intelligence (AI)
-- Terraform
-- Cloud computing
-- Cybersecurity
+## Contents
 
-As of 2025, I am preparing for the **Azure AZ 900** and plan to take the **CompTIA CySA+** and **PenTest+** certifications. I am also learning cybersecurity from **TryHackMe**.
+The project includes the following components:
 
-## Career Aspirations
-My skills have paved the way for me to pursue an entry-level role in the following fields:
+- **Jupyter Notebook**: Contains the detailed analysis, data visualizations, and insights. The notebook uses Python libraries such as Pandas, Matplotlib, and Seaborn to process and visualize the data.
+- **Microsoft BI Overview**: An interactive dashboard created using Microsoft Power BI. The dashboard provides a visual summary of the key findings from the analysis.
 
-### Cloud
-- Cloud Administrator
-- Cloud Support Engineer
-- Cloud Developer
-- Cloud Solutions Architect
+## Key Features
 
-### Data Analysis
-- Data Analyst
-- Machine Learning Analyst
-- AI Prompt Engineer
+- **Data Analysis**: A comprehensive examination of the data related to the space race, including launch dates, mission outcomes, and technological innovations.
+- **Visualizations**: Various charts and graphs to illustrate trends and patterns in the data.
+- **Insights**: Key takeaways and conclusions drawn from the analysis, highlighting the significance of different events and contributions.
 
-### Cybersecurity
-- Cybersecurity Analyst
-- SOC (Security Operations Center) Analyst
-- Information Security Analyst
-- IT Security Analyst
-- Cyber Defense Analyst
+## How to Use
 
-## Professional Philosophy
-I believe people should be safe and secure in their online activities. This applies to companies, governmental agencies, and individual users. Everyone should have access to the data they are authorized to view and retrieve, allowing them to perform their jobs efficiently and safely. Systems need to maintain high levels of confidentiality, integrity, and availability, adhering to laws, policies, and procedures. Vigilance is key to achieving these goals.
+To explore the analysis and visualizations:
 
-## Personal Attributes
-- Extremely persistent
-- Problem-solving enthusiast
-- Lifelong learner with hyperfocus
-- Excellent communication, teaching, writing, and presentation skills
+1. **Jupyter Notebook**: Open the Jupyter Notebook file (`Space_Race_Analysis.ipynb`) using JupyterLab or Jupyter Notebook. Run the cells to reproduce the analysis and visualizations.
+2. **Microsoft BI Overview**: Open the Power BI report file (`Space_Race_Overview.pbix`) using Microsoft Power BI Desktop. Interact with the dashboard to explore the visualizations and insights.
 
-I am extremely persistent and I love to address and solve problems. I love learning and possess the hyperfocus to complete what I begin. I have excellent communication, teaching, writing, and presentation skills because I have taught for fifteen years.
+## Conclusion
 
-## Skills
+This project provides a detailed analysis of the space race, highlighting the achievements and contributions of various countries in the field of space exploration. By examining the historical milestones and technological advancements, we gain a better understanding of the impact of space exploration on science and society.
 
-## Projects
-| Project                               | Skills/Knowledge Gained                                      |
-| ------------------------------------- | ------------------------------------------------------------ |
-| **Author Website Terraform Project**  | Terraform, key security, microservices, Azure, cloud architectures |
-| **Creating a Text-to-Speech App**     | Azure, AI, cloud architectures, Python                       |
-| **Space Race**                        | Data analytics, Jupyter notebooks, Microsoft BI              |
-| **Dog Breed Identification Project**  | Machine learning                                             |
-
-## Tools
-- Google Workspace (Drive, Docs, Sheets, Slides)
-- Microsoft BI
-- Python
-- Jupyter Notebooks
-- Data Sets
-- AI Prompting
-- Machine Learning Algorithms
-- Scikit-Learn
-- Pandas
-- PyTorch
-- TensorFlow
-- Terraform
-
-
-
-## Stay Tuned for Updates!
-This portfolio will continuously grow as I complete more certificates and projects. I encourage you to visit again to see my progress and learn more about my new skills and experience.
-
-Thank you for your time. For more information, please connect with me on [LinkedIn]
