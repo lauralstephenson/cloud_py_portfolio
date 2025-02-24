@@ -1,4 +1,4 @@
-# Dog Breed Project
+# Dog Breed Machine Learning Project
 
 ## Project Overview
 
