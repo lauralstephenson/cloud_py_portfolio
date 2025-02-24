@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is an analysis of the worldwide space race since 1957. The primary goal is to explore and visualize the key events, achievements, and advancements in space exploration by various countries. The analysis includes:
+This project is an analysis of the worldwide space race since 1957. The primary goal is to explore and visualize the key events, achievements, and advancements in space exploration by various countries. I did this for a Udemy Python class called 100 Days of Code, which only outlined the project. I did the Microsoft BI Overview on my own. The analysis includes:
 
 - Historical milestones in the space race
 - Key players and their contributions
