@@ -1,21 +1,63 @@
-# Author Website Terraform Project
+# Author Website Migration to Azure Using Terraform
 
-## The Project
+This project demonstrates how to move an author website to Azure using Terraform. The website includes features such as a database to store email addresses of newsletter subscribers.
 
-I created this Terraform project to move an author website to Azure, containerize it, add a database for subscribers, add secrets to an Azure Key Vault, lock the Terraform file, and add listeners for both email opt-outs and the reader magnet.
+## Project Overview
 
-## What I Learned
-- How to use Terraform
-- Azure
-- Key Vault
-- IAM
-- Database
-- Containers
-- Email
-- Listeners
+The author website requires:
+- Email templates for a welcome email (for those downloading a free writing sample, called a reader magnet) and for newsletter emails as they are uploaded to the site.
+- Functions to send newsletters and delete emails from the database when someone unsubscribes.
 
-This was quite the complicated project with many moving parts. I learned a huge amount about cloud computing, websites, email, keeping secrets and data safe, using identity management, and much more. I learned about both cloud computing and cybersecurity at the same time!
+**Note:** The actual author website is not included here. This project uses pseudocode. A person using this code to create an author website using Terraform would change any filename that says "author_example" to their own, the paths to the emails, and so on.
 
-**Note** The uploaded Terraform files for this project are in pseudocode. A person using this code to create an author website using Terraform would change any filename that says "author_example" to their own, the paths to the emails, and so on.
+## Terraform Files
 
-I also wrote a Medium article about the process.
+Terraform configuration is divided into several files:
+
+- **main.tf**: Specifies the provider and all the resources being provisioned.
+- **variables.tf**: Defines the names of all resources.
+- **terraform.tfvars** (optional): Manages configuration variables, useful for multiple environments (e.g., development and production) or keeping variable values separate from the main configuration files.
+- **outputs.tf**: Outputs certain values to the command line.
+
+### main.tf
+
+The `main.tf` file includes:
+- A defined resource group.
+- A storage account with blob containers for newsletters and templates.
+- Static website hosting and uploading website files or Docker image(s).
+- A Cosmos DB database for the Cosmos DB account, database, and container.
+- An Azure Function App with settings for Cosmos DB.
+- An Event Grid topic and subscription for newsletters and opt-out events.
+- A Key Vault to store secrets for the email service and Cosmos DB.
+- A container registry and container instance for the Docker image.
+
+### variables.tf
+
+The `variables.tf` file includes:
+- Resource group name
+- Location
+- Storage account name
+- Cosmos DB account name
+- Function App name
+- Key Vault name
+- Container registry name
+- Container group name
+- Container name
+- Container image
+
+### terraform.tfvars
+
+The `terraform.tfvars` file includes the same resources as the `variables.tf` file with their values.
+
+### outputs.tf
+
+The `outputs.tf` file provides outputs for:
+- Resource group name
+- Storage account name
+- Cosmos DB account endpoint
+- Function App default hostname
+- Key Vault URI (allowing applications to securely access a specific version of a secret)
+
+## Usage
+
+Please alter the code using HashiCorp's Terraform registry to fit your own projects.
