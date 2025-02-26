@@ -20,7 +20,7 @@ I have studied:
 - Cloud computing
 - Cybersecurity
 
-As of 2025, I am preparing for the **Azure AZ 900** and plan to take the **CompTIA CySA+** and **PenTest+** certifications. I am also learning cybersecurity from **TryHackMe**.
+As of 2025, I am preparing for the **Azure AZ 900** and plan to take the **CompTIA Network+**, **CySA+**, and **PenTest+** certifications. I am also learning cybersecurity from **TryHackMe**.
 
 ## Career Aspirations
 My skills have paved the way for me to pursue an entry-level role in the following fields:
@@ -44,9 +44,10 @@ My skills have paved the way for me to pursue an entry-level role in the followi
 - Cyber Defense Analyst
 
 ## Professional Philosophy
-I believe people should be safe and secure in their online activities. This applies to companies, governmental agencies, and individual users. Everyone should have access to the data they are authorized to view and retrieve, allowing them to perform their jobs efficiently and safely. Systems need to maintain high levels of confidentiality, integrity, and availability, adhering to laws, policies, and procedures. Vigilance is key to achieving these goals.
+I believe people should be safe and secure in their online activities. This applies to companies, governmental agencies, and individual users. Everyone should have access to the data they are authorized to view and retrieve, allowing them to perform their jobs efficiently and safely. Systems need to maintain high levels of confidentiality, integrity, and availability, adhering to laws, policies, and procedures. Vigilance is key to achieving these goals. My certifications and projects, study towards new certifications, and ethical hacking practice show my dedication to my craft, my genuine pleasure at learning new skills, and my drive to become a little bit better every day. 
 
 ## Personal Attributes
+In addition to my technical skills, I possess the following personal attributes that make me a well-rounded professional:
 - Extremely persistent
 - Problem-solving enthusiast
 - Lifelong learner with hyperfocus
@@ -55,6 +56,14 @@ I believe people should be safe and secure in their online activities. This appl
 I am extremely persistent and I love to address and solve problems. I love learning and possess the hyperfocus to complete what I begin. I have excellent communication, teaching, writing, and presentation skills because I have taught for fifteen years.
 
 ## Skills
+- Cloud Computing (AWS, Azure)
+- Python Programming
+- Data Analysis (Microsoft BI, Jupyter Notebooks, Pandas)
+- Machine Learning (Scikit-Learn, PyTorch, TensorFlow)
+- Infrastructure as Code (Terraform)
+- Cybersecurity
+- AI Prompting
+- Excellent communication, teaching, writing, and presentation skills
 
 ## Projects
 | Project                               | Skills/Knowledge Gained                                      |
@@ -64,21 +73,32 @@ I am extremely persistent and I love to address and solve problems. I love learn
 | **Space Race**                        | Data analytics, Jupyter notebooks, Microsoft BI              |
 | **Dog Breed Identification Project**  | Machine learning                                             |
 
+I also wrote Medium articles about the **Text-To-Speech App** and the **Author Website Terraform Project**.
+
 ## Tools
+
+## Cloud Platforms
 - Google Workspace (Drive, Docs, Sheets, Slides)
+- Azure
+- AWS
+
+### Data Analysis Tools
 - Microsoft BI
-- Python
 - Jupyter Notebooks
 - Data Sets
-- AI Prompting
+- Pandas
+  
+## Machine Learning Frameworks
 - Machine Learning Algorithms
 - Scikit-Learn
-- Pandas
 - PyTorch
 - TensorFlow
-- Terraform
 
+## Programming Languages
+- Python
 
+## Artificial Intelligence
+- AI Prompting
 
 ## Stay Tuned for Updates!
 This portfolio will continuously grow as I complete more certificates and projects. I encourage you to visit again to see my progress and learn more about my new skills and experience.
