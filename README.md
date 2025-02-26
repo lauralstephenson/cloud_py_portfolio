@@ -103,4 +103,4 @@ I also wrote Medium articles about the **Text-To-Speech App** and the **Author W
 ## Stay Tuned for Updates!
 This portfolio will continuously grow as I complete more certificates and projects. I encourage you to visit again to see my progress and learn more about my new skills and experience.
 
-Thank you for your time. For more information, please connect with me on [LinkedIn]
+Thank you for your time. For more information, please connect with me on [LinkedIn].
